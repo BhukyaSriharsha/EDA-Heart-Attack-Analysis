@@ -1,109 +1,106 @@
-🩺Heart Attack Analysis – Exploratory Data Analysis (EDA)
-🧠 Overview
+# 🩺 Heart Attack Analysis – Exploratory Data Analysis (EDA)
 
-This project focuses on Exploratory Data Analysis (EDA) of a heart attack dataset to uncover hidden patterns, correlations, and key risk factors affecting heart disease likelihood.
+## 🧠 Overview
+This project focuses on **Exploratory Data Analysis (EDA)** of a heart attack dataset to uncover hidden patterns, correlations, and key risk factors affecting heart disease likelihood.  
 The analysis leverages Python’s data visualization and statistical libraries to gain insights for healthcare and prevention strategies.
 
-🗂️ Dataset Information
+---
 
+## 🗂️ Dataset Information
 The dataset contains patient-level information including:
 
-Age
+- **Age**
+- **Gender**
+- **Chest pain type (cp)**
+- **Resting blood pressure (trestbps)**
+- **Cholesterol level (chol)**
+- **Fasting blood sugar (fbs)**
+- **Resting ECG results (restecg)**
+- **Maximum heart rate achieved (thalach)**
+- **Exercise-induced angina (exang)**
+- **Oldpeak (ST depression)**
+- **Slope of peak exercise ST segment (slope)**
+- **Number of major vessels (ca)**
+- **Thalassemia (thal)**
+- **Target variable (1 = heart disease, 0 = healthy)**
 
-Gender
+---
 
-Chest pain type (cp)
+## 🧩 Key Objectives
+- Perform **data cleaning** and handle missing/outlier values.  
+- Conduct **univariate & multivariate analysis**.  
+- Visualize relationships using plots.  
+- Identify key **factors influencing heart attack risk**.  
+- Generate actionable **health insights**.
 
-Resting blood pressure (trestbps)
+---
 
-Cholesterol level (chol)
+## 🧰 Tech Stack & Tools
+| Category | Tools |
+|-----------|--------|
+| Programming | Python |
+| Libraries | pandas, numpy, matplotlib, seaborn, plotly |
+| IDE | Jupyter Notebook |
+| Visualization | Matplotlib, Seaborn |
+| Version Control | Git + GitHub |
 
-Fasting blood sugar (fbs)
+---
 
-Resting ECG results (restecg)
-
-Maximum heart rate achieved (thalach)
-
-Exercise-induced angina (exang)
-
-Oldpeak (ST depression)
-
-Slope of peak exercise ST segment (slope)
-
-Number of major vessels (ca)
-
-Thalassemia (thal)
-
-Target variable (1 = heart disease, 0 = healthy)
-
-🧩 Key Objectives
-
-Perform data cleaning and handle missing/outlier values.
-
-Conduct univariate & multivariate analysis.
-
-Visualize relationships using plots.
-
-Identify key factors influencing heart attack risk.
-
-Generate actionable health insights.
-
-🧰 Tech Stack & Tools
-Category	Tools
-Programming	Python
-Libraries	pandas, numpy, matplotlib, seaborn, plotly
-IDE	Jupyter Notebook
-Visualization	Matplotlib, Seaborn
-Version Control	Git + GitHub
-📈 Insights
-
+## 📈 Insights
 Some key takeaways from the analysis include:
+- Males show higher heart disease frequency than females.  
+- Increasing age correlates with higher chances of heart disease.  
+- High cholesterol and resting blood pressure are common indicators.  
+- Exercise-induced angina and lower maximum heart rate are strong predictors.  
 
-Males show higher heart disease frequency than females.
+---
 
-Increasing age correlates with higher chances of heart disease.
-
-High cholesterol and resting blood pressure are common indicators.
-
-Exercise-induced angina and lower maximum heart rate are strong predictors.
-
-📊 Visualizations
-
+## 📊 Visualizations
 The notebook includes:
+- **Correlation heatmap**
+- **Age distribution & risk comparison**
+- **Pairplots for relationships**
+- **Heart disease frequency across genders**
+- **Feature-wise boxplots**
 
-Correlation heatmap
+---
 
-Age distribution & risk comparison
-
-Pairplots for relationships
-
-Heart disease frequency across genders
-
-Feature-wise boxplots
-
-🚀 How to Run
-
-Clone this repository:
-
-git clone https://github.com/BhukyaSriharsha/EDA-Heart-Attack-Analysis.git
-
-
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/BhukyaSriharsha/EDA-Heart-Attack-Analysis.git
 Navigate to the folder:
 
+bash
+Copy code
 cd EDA-Heart-Attack-Analysis
-
-
 Launch the Jupyter Notebook:
 
+bash
+Copy code
 jupyter notebook EDA_Project_(Heart_Attack_Analysis).ipynb
-
 🧑‍💻 Author
-
 Bhukya Sriharsha
 🎓 B.Tech – IIT (ISM) Dhanbad
 📚 Data Science | AI | Machine Learning Enthusiast
+🔗 Connect on LinkedIn
 
 ⭐ Support
+If you found this project helpful, don’t forget to star ⭐ the repository and connect on LinkedIn for collaboration!
 
-If you found this project helpful, don’t forget to star ⭐ the repository and connect on LinkedIn
- for collaboration!
+pgsql
+Copy code
+
+---
+
+✅ **Instructions:**  
+Just copy this entire code block → paste into your GitHub **README.md** file editor → click “Commit changes”.  
+It will display with perfect headings, emojis, and a clickable LinkedIn link exactly like you described.  
+
+Would you like me to make it even more **visually styled** (with a cover banner or badges like “Made with Python”, “EDA Project”, etc.) for extra portfolio impact?
+
+
+
+
+
+
